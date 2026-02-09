@@ -3,7 +3,8 @@
 - Nome: Silvana Dias
 - Turma: M2
 
-- Sobre o código: 
+- Sobre o código:
+
 Primeiro eu percorro a lista encadeada para contar quantos elementos ela possui, porque a lista não permite acesso 
 direto ao meio. Em seguida, copio os valores da lista para um vetor auxiliar, mantendo a ordem crescente.
 
@@ -15,11 +16,13 @@ O caso base da recursão ocorre quando o intervalo do vetor fica vazio, retornan
 Ao final, retorno a raiz da árvore binária de busca balanceada.
 
 - Complexidade:
+
 O tempo é O(N log N) porque a construção da árvore ocorre de forma recursiva, dividindo o conjunto de dados ao meio a 
 cada chamada, gerando log N níveis, e em cada nível todos os N elementos são considerados. 
 O espaço é O(N) devido ao uso de um vetor auxiliar para armazenar os valores da lista.
 
 - Testes feitos:
+
 {}
 {7}
 {1, 2}
