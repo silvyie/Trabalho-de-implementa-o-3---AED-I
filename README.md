@@ -24,12 +24,19 @@ O espaço é O(N) devido ao uso de um vetor auxiliar para armazenar os valores d
 - Testes feitos:
 
 {}
+
 {7}
+
 {1, 2}
+
 {1, 2, 3}
+
 {-10, -8, -5, -2}
+
 {-5, -2, 0, 3, 8}
+
 {1, 2, 3, 4, 5, 6, 7}
+
 {10, 20, 30, 40, 50, 60}
-{-100000, -50000, 0, 50000, 100000}
+
 {-3, -1, 2, 4, 9, 15}
